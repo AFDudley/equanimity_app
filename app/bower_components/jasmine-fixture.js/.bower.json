@@ -1,0 +1,15 @@
+{
+  "name": "jasmine-fixture.js",
+  "_cacheHeaders": {
+    "ETag": "\"2fcb28b180387c61281b688fb70ae342\"",
+    "Last-Modified": "Fri, 05 Jul 2013 04:10:15 GMT",
+    "Content-Length": "16668",
+    "Content-Type": "application/octet-stream",
+    "Content-Disposition": "attachment; filename=jasmine-fixture.js"
+  },
+  "_release": "e-tag:2fcb28b18",
+  "main": "index.js",
+  "_source": "https://github.com/searls/jasmine-fixture/releases/1.0.5/1737/jasmine-fixture.js",
+  "_target": "*",
+  "_originalSource": "https://github.com/searls/jasmine-fixture/releases/1.0.5/1737/jasmine-fixture.js"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "kgame",
+  "version": "0.0.0",
+  "homepage": "https://github.com/greggg230/kgame",
+  "authors": [
+    "Gregg Keithley <gregg@pronym.com>"
+  ],
+  "description": "A KineticJS based game framework",
+  "main": "src/",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jasmine-fixture.js": "https://github.com/searls/jasmine-fixture/releases/1.0.5/1737/jasmine-fixture.js",
+    "jasmine": "1.3.1",
+    "jquery.cookie": "1.3.1",
+    "jquery": "1.9.1",
+    "kinetic": "http://d3lp1msu2r81bx.cloudfront.net/kjs/js/lib/kinetic-v4.6.0.min.js",
+    "requirejs": "2.1.5"
+  }
+}
