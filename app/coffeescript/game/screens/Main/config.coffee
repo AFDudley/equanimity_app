@@ -19,11 +19,11 @@ fn = ->
     x: 510
     y: 320
   qStep =
-    x: b - h
-    y: a / 2
+    x: a / 2
+    y: b - h
   rStep =
-    x: 0
-    y: a
+    x: a
+    y: 0
   images = ['fireHex', 'iceHex', 'earthHex', 'windHex']
   # Amount every other row is offset on the x-axis
   for q in [-radius..radius]
@@ -34,8 +34,8 @@ fn = ->
       config.objects["hex_#{q}_#{r}"] =
         x: q * qStep.x + r * rStep.x + start.x
         y: q * qStep.y + r * rStep.y + start.y
-        width: b
-        height: a
+        width: a
+        height: b
         imageName: imageName
 
   config
