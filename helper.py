@@ -89,7 +89,8 @@ def build(just_once=True):
 
 def clean():
     # Remove current compiled files.
-    shutil.rmtree(compile_to)
+    if os.path.exists(compile_to):
+        shutil.rmtree(compile_to)
 
 
 def install_dependencies():
