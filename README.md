@@ -8,7 +8,7 @@ See mockup [here](https://cacoo.com/diagrams/X54xvo0qrP4OVQBr).
 
 ## Installation
 
-1. chmod +X helper.py (or you can just run it with python helper.py)
+1. chmod +x helper.py (or you can just run it with python helper.py)
 2. Run helper.py build
 3. Create a web server with document root as app
 

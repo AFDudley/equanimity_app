@@ -7,9 +7,6 @@ import subprocess
 import shutil
 from json import dumps, loads
 
-here = os.path.dirname(os.path.abspath(__file__))
-sys.path.append(here)
-
 
 def coffee_watch(watch_path, compile_path, coffee_url='/', just_once=False):
     if not os.path.exists(watch_path):
@@ -79,6 +76,7 @@ def coffee_watch(watch_path, compile_path, coffee_url='/', just_once=False):
         if just_once:
             break
 
+here = os.path.dirname(os.path.abspath(__file__))
 watch = here + "/app/coffeescript"
 compile_to = here + "/app/build"
 compile_url = "/coffeescript"
