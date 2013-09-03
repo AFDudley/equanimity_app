@@ -1,8 +1,14 @@
 fn = (MainScreen) ->
   config =
     images:
-      test:
-        url: 'test.png'
+      fireHex:
+        url: 'fire_hex.png'
+      iceHex:
+        url: 'ice_hex.png'
+      earthHex:
+        url: 'earth_hex.png'
+      windHex:
+        url: 'wind_hex.png'
     defaultWidth: 1020
     width: 1020
     height: 680
